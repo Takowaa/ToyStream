@@ -1,0 +1,297 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Akrobat';
+    }
+    
+    #checkbox-menu,
+    .toogle {
+        display: none;
+    }
+    
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    
+    .bck-color {
+        width: 100%;
+        height: 942px;
+        background: linear-gradient(to right, #FFEE2F 20%, #FFEE2F 20% 40%, #FFEE2F 40% 60%, #FFFFFF 60% 80%, #FFFFFF 80%);
+        margin-bottom: 77px;
+    }
+    
+    .menu {
+        height: 96px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .logo {
+        margin-left: 92px;
+    }
+    
+    .mr-left {
+        margin-left: 592px;
+    }
+    
+    .cont {
+        margin-right: 127px;
+    }
+    
+    .menu li a {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: #000000;
+        text-decoration: none;
+        padding-right: 49px;
+        margin-bottom: 96px;
+    }
+    
+    .menu li a:hover {
+        color: #FF0000;
+    }
+    
+    select {
+        padding: 46px 28px 46px 32px;
+        background: #CE0002;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid #CE0002;
+    }
+    
+    select:hover {
+        background: #FE0002;
+    }
+    
+    .flex-comand {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .logotip {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nasha {
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 85px;
+        text-transform: uppercase;
+        color: #000000;
+        padding: 118px 0px 30px 238px;
+    }
+    
+    .logo2 {
+        padding-bottom: 25px;
+    }
+    
+    .olienik {
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 40px;
+        color: #000000;
+    }
+    
+    .ceo {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        color: #646464;
+    }
+    
+    .red-box {
+        width: 17px;
+        height: 17px;
+        background: #CE0002;
+    }
+    
+    .black-box {
+        width: 18px;
+        height: 18px;
+        background: #000000;
+    }
+    
+    .company {
+        display: flex;
+    }
+    
+    .comand {
+        opacity: 0;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #646464;
+        padding-right: 12px;
+        text-decoration: none;
+    }
+    
+    .comand:hover {
+        opacity: 1;
+        transition-duration: 1s;
+    }
+    
+    .h-stud {
+        font-size: 20px;
+        line-height: 24px;
+        padding-right: 13.5px;
+        text-transform: uppercase;
+        color: #646464;
+        text-decoration: none;
+    }
+    
+    footer {
+        background: #EFEFEF;
+    }
+    
+    .foot-menu {
+        height: 54px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .foot-menu li a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #7E7E7E;
+        text-decoration: none;
+        padding-right: 35px;
+    }
+    
+    .stream {
+        margin-left: 27px;
+    }
+    
+    .str {
+        margin-left: 469px;
+    }
+    
+    .foot-logo1 {
+        padding-right: 20px;
+        margin-left: 300px;
+    }
+    
+    .foot-logo {
+        padding-right: 20px;
+    }
+    
+    .box-2 {
+        display: flex;
+    }
+    
+    .box {
+        padding: 135px 0px 100px 20px;
+    }
+    
+    @media screen and (max-width: 765px) {
+        .toogle {
+            clear: both;
+            display: block;
+            text-align: center;
+            font-size: 18px;
+            line-height: 40px;
+            width: 100%;
+            color: #000;
+            background: #ffcc01;
+            transition: all .1s linear;
+        }
+        .toogle:hover {
+            background: #d3a900;
+        }
+        #checkbox-menu:checked+label .touch li {
+            opacity: 1;
+            visibility: visible;
+            transition: all .7s linear;
+        }
+        #checkbox-menu:checked+label .touch {
+            height: 400px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 0;
+            transition: height .3s linear;
+        }
+        .menu li {
+            text-align: center;
+            width: 95%;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .menu li a {
+            padding: 10px;
+            width: 95%;
+            align-self: center;
+            text-align: center;
+            align-content: center;
+        }
+        .logo {
+            margin: 0;
+        }
+        select {
+            padding: 3px 6px;
+            font-size: 18px;
+        }
+        .menu li a.cont {
+            margin: 0;
+        }
+        .mr-left {
+            margin: 0;
+        }
+        .comanda1 {
+            display: block;
+            margin: 0;
+            max-width: 100%;
+        }
+        .logotip {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: initial;
+        }
+        .nasha {
+            padding: 0px 0px 25px 0px;
+        }
+        .box {
+            padding-top: 20px;
+        }
+        .flex-comand {
+            flex-direction: column;
+        }
+        .bck-color {
+            height: auto;
+        }
+        .alex {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .right1 {
+            margin: 0;
+        }
+        .foot-logo1 {
+            display: none;
+        }
+        .foot-logo {
+            display: none;
+        }
+        .stream {
+            display: none;
+        }
+        .contact2 {
+            display: none;
+        }
+        .str {
+            margin-left: 68px;
+        }
+    }

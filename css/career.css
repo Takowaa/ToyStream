@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Akrobat';
+}
+
+#checkbox-menu,
+.toogle {
+    display: none;
+}
+
+.bck-color {
+    width: 100%;
+    height: 942px;
+    background: linear-gradient(to right, #FFFFFF 20%, #FFFFFF 20% 40%, #D3D1E9 40% 60%, #D3D1E9 60% 80%, #D3D1E9 80%);
+    margin-bottom: 77px;
+}
+
+.menu {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.logo {
+    margin-left: 92px;
+}
+
+.mr-left {
+    margin-left: 592px;
+}
+
+.cont {
+    margin-right: 127px;
+}
+
+.menu li a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 49px;
+    margin-bottom: 96px;
+}
+
+.menu li a:hover {
+    color: #FF0000;
+}
+
+select {
+    padding: 46px 28px 46px 32px;
+    background: #CE0002;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #CE0002;
+}
+
+select:hover {
+    background: #FE0002;
+}
+
+.flex-info {
+    display: flex;
+}
+
+.logotip {
+    display: flex;
+    flex-direction: column;
+    margin: 303px 66px 0px 93px;
+}
+
+.logo2 {
+    padding-bottom: 25px;
+}
+
+.p-info {
+    margin-top: 265px;
+}
+
+.info-p {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 37px;
+}
+
+.info-p2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 33px;
+}
+
+.btn1 {
+    padding: 20px 44px;
+    background: #CE0002;
+    border: none;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.btn1:hover {
+    background: #FE0002;
+}
+
+.img-craft {
+    margin: 47px 0px 0px 84px;
+}
+
+footer {
+    background: #EFEFEF;
+}
+
+.foot-menu {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.foot-menu li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #7E7E7E;
+    text-decoration: none;
+    padding-right: 35px;
+}
+
+.stream {
+    margin-left: 27px;
+}
+
+.str {
+    margin-left: 469px;
+}
+
+.foot-logo1 {
+    padding-right: 20px;
+    margin-left: 300px;
+}
+
+.foot-logo {
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 765px) {
+    .toogle {
+        clear: both;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        width: 100%;
+        color: #000;
+        background: #aba7d1;
+        transition: all .1s linear;
+    }
+    .toogle:hover {
+        background: #908cb8;
+    }
+    #checkbox-menu:checked+label .touch li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #checkbox-menu:checked+label .touch {
+        height: 400px;
+    }
+    .bck-color {
+        height: auto;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0;
+        transition: height .3s linear;
+    }
+    .menu li {
+        text-align: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu li a {
+        padding: 10px;
+        width: 95%;
+        align-self: center;
+        text-align: center;
+        align-content: center;
+    }
+    .logo {
+        margin: 0;
+    }
+    select {
+        padding: 3px 6px;
+        font-size: 18px;
+    }
+    .menu li a.cont {
+        margin: 0;
+    }
+    .mr-left {
+        margin: 0;
+    }
+    .flex-info {
+        margin-top: 0;
+        display: block;
+        max-width: 100%;
+    }
+    .logotip {
+        display: flex;
+        flex-direction: initial;
+        justify-content: space-evenly;
+        margin: 40px 0px 0px 0px;
+    }
+    .p-info {
+        margin: 0;
+        text-align: center;
+    }
+    .img-craft {
+        margin: 40px 0px 0px 83px;
+    }
+    .m-img {
+        width: 400px;
+    }
+    .foot-logo1 {
+        display: none;
+    }
+    .foot-logo {
+        display: none;
+    }
+    .stream {
+        display: none;
+    }
+    .contact2 {
+        display: none;
+    }
+    .str {
+        margin-left: 68px;
+    }
+}

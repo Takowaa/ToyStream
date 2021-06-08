@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Akrobat';
+}
+
+#checkbox-menu,
+.toogle {
+    display: none;
+}
+
+.bck-color {
+    background-color: #FAFAFA;
+    height: auto;
+}
+
+.menu {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.logo {
+    margin-left: 92px;
+}
+
+.mr-left {
+    margin-left: 592px;
+}
+
+.cont {
+    margin-right: 127px;
+}
+
+.menu li a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 49px;
+    margin-bottom: 96px;
+}
+
+.menu li a:hover {
+    color: #FF0000;
+}
+
+select {
+    padding: 46px 28px 46px 32px;
+    background: #CE0002;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #CE0002;
+}
+
+select:hover {
+    background: #FE0002;
+}
+
+.news {
+    margin: 145px 0px 0px 187px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.flex-news {
+    display: flex;
+    margin-top: 31px;
+}
+
+.logotip {
+    display: flex;
+    flex-direction: column;
+    margin: 71px 0px 0px 93px;
+}
+
+.logo2 {
+    padding-bottom: 25px;
+}
+
+.game {
+    margin: 31px 65px 26px 67px;
+}
+
+.sovet {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 65px;
+    color: #000000;
+    margin: 25px 0px 24px 0px;
+}
+
+.stream {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.p-info {
+    width: 1500px;
+    margin: 0px 0px 0px 187px;
+    padding-bottom: 150px;
+}
+
+footer {
+    background: #EFEFEF;
+}
+
+.foot-menu {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.foot-menu li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #7E7E7E;
+    text-decoration: none;
+    padding-right: 35px;
+}
+
+.stream2 {
+    margin-left: 27px;
+}
+
+.str1 {
+    margin-left: 469px;
+}
+
+.foot-logo1 {
+    padding-right: 20px;
+    margin-left: 300px;
+}
+
+.foot-logo {
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 765px) {
+    .toogle {
+        clear: both;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        width: 100%;
+        color: #000;
+        background: #aba7d1;
+        transition: all .1s linear;
+    }
+    .toogle:hover {
+        background: #908cb8;
+    }
+    #checkbox-menu:checked+label .touch li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #checkbox-menu:checked+label .touch {
+        height: 400px;
+    }
+    .bck-color {
+        height: auto;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0;
+        transition: height .3s linear;
+    }
+    .menu li {
+        text-align: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu li a {
+        padding: 10px;
+        width: 95%;
+        align-self: center;
+        text-align: center;
+        align-content: center;
+    }
+    .logo {
+        margin: 0;
+    }
+    select {
+        padding: 3px 6px;
+        font-size: 18px;
+    }
+    .menu li a.cont {
+        margin: 0;
+    }
+    .mr-left {
+        margin: 0;
+    }
+    .flex-news {
+        display: block;
+    }
+    .news {
+        margin: 40px 0px 0px 0px;
+        text-align: center;
+    }
+    .logotip {
+        display: flex;
+        flex-direction: initial;
+        justify-content: space-evenly;
+        margin: 40px 0px 0px 0px;
+    }
+    .m-img {
+        width: 473px;
+    }
+    .m-p {
+        text-align: center;
+    }
+    .p-info {
+        margin: 0;
+        text-align: center;
+        width: auto;
+    }
+    .stream {
+        margin-bottom: 50px;
+    }
+    .foot-logo1 {
+        display: none;
+    }
+    .foot-logo {
+        display: none;
+    }
+    .stream2 {
+        display: none;
+    }
+    .contact2 {
+        display: none;
+    }
+    .str1 {
+        margin-left: 68px;
+    }
+}

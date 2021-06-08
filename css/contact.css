@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Akrobat';
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+#checkbox-menu,
+.toogle {
+    display: none;
+}
+
+.bck-color {
+    background-color: #FAFAFA;
+    height: 100vh;
+}
+
+.menu {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.logo {
+    margin-left: 92px;
+}
+
+.mr-left {
+    margin-left: 592px;
+}
+
+.cont {
+    margin-right: 127px;
+}
+
+.menu li a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 49px;
+    margin-bottom: 96px;
+}
+
+.menu li a:hover {
+    color: #FF0000;
+}
+
+select {
+    padding: 46px 28px 46px 32px;
+    background: #CE0002;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #CE0002;
+}
+
+select:hover {
+    background: #FE0002;
+}
+
+.logotip {
+    display: flex;
+    flex-direction: column;
+    margin: 130px 0px 0px 93px;
+}
+
+.logo2 {
+    padding-bottom: 25px;
+}
+
+.map-flex {
+    display: flex;
+    margin-top: 178px;
+}
+
+.cont1 {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.mail {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.p-info {
+    margin: 200px 100px 0px 65px;
+}
+
+.map {
+    margin-left: 228px;
+}
+
+.foot-menu {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.foot-menu li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #7E7E7E;
+    text-decoration: none;
+    padding-right: 35px;
+}
+
+.stream {
+    margin-left: 27px;
+}
+
+.str1 {
+    margin-left: 469px;
+}
+
+.foot-logo1 {
+    padding-right: 20px;
+    margin-left: 300px;
+}
+
+.foot-logo {
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 765px) {
+    .toogle {
+        clear: both;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        width: 100%;
+        color: #000;
+        background: #aba7d1;
+        transition: all .1s linear;
+    }
+    .toogle:hover {
+        background: #908cb8;
+    }
+    #checkbox-menu:checked+label .touch li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #checkbox-menu:checked+label .touch {
+        height: 400px;
+    }
+    .bck-color {
+        height: auto;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0;
+        transition: height .3s linear;
+    }
+    .menu li {
+        text-align: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu li a {
+        padding: 10px;
+        width: 95%;
+        align-self: center;
+        text-align: center;
+        align-content: center;
+    }
+    .logo {
+        margin: 0;
+    }
+    select {
+        padding: 3px 6px;
+        font-size: 18px;
+    }
+    .menu li a.cont {
+        margin: 0;
+    }
+    .mr-left {
+        margin: 0;
+    }
+    .map-flex {
+        display: block;
+        margin: 0;
+    }
+    .logotip {
+        display: flex;
+        flex-direction: initial;
+        justify-content: space-evenly;
+        margin: 40px 0px 0px 0px;
+    }
+    .p-info {
+        margin: 40px 0px 0px 0px;
+        text-align: center;
+    }
+    .map {
+        margin: 0;
+        width: auto;
+    }
+    .map2 {
+        width: auto;
+    }
+    .foot-logo1 {
+        display: none;
+    }
+    .foot-logo {
+        display: none;
+    }
+    .stream {
+        display: none;
+    }
+    .contact2 {
+        display: none;
+    }
+    .str1 {
+        margin-left: 68px;
+    }
+}

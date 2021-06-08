@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Akrobat";
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+#checkbox-menu,
+.toogle {
+    display: none;
+}
+
+.bck-color {
+    width: 100%;
+    height: 942px;
+    background: linear-gradient(to right, #FFFFFF 20%, #FFEE2F 20% 40%, #FFEE2F 40% 60%, #FFEE2F 60% 80%, #FFEE2F 80%);
+    margin-bottom: 77px;
+}
+
+.menu {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.logo {
+    margin-left: 92px;
+}
+
+.mr-left {
+    margin-left: 592px;
+}
+
+.cont {
+    margin-right: 127px;
+}
+
+.menu li a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 49px;
+    margin-bottom: 96px;
+}
+
+.menu li a:hover {
+    color: #FF0000;
+}
+
+select {
+    padding: 46px 28px 46px 32px;
+    background: #CE0002;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #CE0002;
+}
+
+select:hover {
+    background: #FE0002;
+}
+
+.game {
+    display: flex;
+}
+
+.limon {
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 88px;
+    margin-top: 235px;
+    padding-bottom: 110px;
+}
+
+.edinirog {
+    background: url(../img/edinrog.svg) no-repeat;
+    width: 785px;
+    height: 733px;
+}
+
+.learn {
+    display: flex;
+}
+
+.logotip {
+    display: flex;
+    flex-direction: column;
+    margin-left: 92px;
+    margin-top: -79px;
+}
+
+.idea {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 66px;
+}
+
+.but1 {
+    width: 120px;
+    height: 120px;
+    background: #CE0002;
+    border: none;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 177px;
+}
+
+.but1:hover {
+    background: #FE0002;
+}
+
+.logo2 {
+    padding-bottom: 27px;
+}
+
+footer {
+    background: #EFEFEF;
+}
+
+.foot-menu {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.foot-menu li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #7E7E7E;
+    text-decoration: none;
+    padding-right: 35px;
+}
+
+.stream {
+    margin-left: 27px;
+}
+
+.str {
+    margin-left: 469px;
+}
+
+.foot-logo1 {
+    padding-right: 20px;
+    margin-left: 300px;
+}
+
+.foot-logo {
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 765px) {
+    .toogle {
+        clear: both;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        width: 100%;
+        color: #000;
+        background: #ffcc01;
+        transition: all .1s linear;
+    }
+    .toogle:hover {
+        background: #d3a900;
+    }
+    #checkbox-menu:checked+label .touch li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #checkbox-menu:checked+label .touch {
+        height: 400px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0;
+        transition: height .3s linear;
+    }
+    .menu li {
+        text-align: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu li a {
+        padding: 10px;
+        width: 95%;
+        align-self: center;
+        text-align: center;
+        align-content: center;
+    }
+    .logo {
+        margin: 0;
+    }
+    select {
+        padding: 3px 6px;
+        font-size: 18px;
+    }
+    .menu li a.cont {
+        margin: 0;
+    }
+    .mr-left {
+        margin: 0;
+    }
+    .game {
+        margin-top: 0;
+        display: block;
+        max-width: 100%;
+    }
+    .limon {
+        margin-top: 50px;
+        font-size: 32px;
+        line-height: normal;
+    }
+    .logotip {
+        margin: -217px 0px 0px 24px;
+    }
+    .but1 {
+        margin-left: 49px;
+    }
+    .bck-color {
+        height: auto;
+    }
+    .edinirog {
+        position: relative;
+        right: -141px;
+        background-size: 350px;
+        top: 51px;
+    }
+    .idea {
+        margin: -6px 0px 0px 20px;
+    }
+    .foot-logo1 {
+        display: none;
+    }
+    .foot-logo {
+        display: none;
+    }
+    .stream {
+        display: none;
+    }
+    .contact2 {
+        display: none;
+    }
+    .str {
+        margin-left: 68px;
+    }
+}
