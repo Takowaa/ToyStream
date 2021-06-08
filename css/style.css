@@ -246,7 +246,7 @@ footer {
     .edinirog {
         position: relative;
         right: -141px;
-        background-size: 350px;
+        background-size: 480px;
         top: 51px;
     }
     .idea {
@@ -259,9 +259,6 @@ footer {
         display: none;
     }
     .stream {
-        display: none;
-    }
-    .contact2 {
         display: none;
     }
     .str {

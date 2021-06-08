@@ -345,7 +345,7 @@ footer {
     }
     .work {
         height: 405px;
-        margin: 40px 0px 0px 45px;
+        margin: 40px 0px 0px 88px;
     }
     .flex-info2 {
         display: block;
@@ -365,7 +365,7 @@ footer {
         padding: 202px 0px 0px 0px;
     }
     .img-flex {
-        margin: 100px 0px 0px 40px;
+        margin: 100px 0px 0px 80px;
     }
     .left {
         margin: 0px 50px 0px 50px;
@@ -386,9 +386,6 @@ footer {
         display: none;
     }
     .stream {
-        display: none;
-    }
-    .contact2 {
         display: none;
     }
     .str {

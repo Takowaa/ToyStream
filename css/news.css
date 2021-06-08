@@ -268,7 +268,7 @@ footer {
         margin: 40px 0px 0px 0px;
     }
     .kart {
-        margin: 40px 0px 0px 46px
+        margin: 40px 0px 0px 80px
     }
     .flex-news2 {
         display: block;
@@ -285,9 +285,6 @@ footer {
         display: none;
     }
     .stream {
-        display: none;
-    }
-    .contact2 {
         display: none;
     }
     .str1 {

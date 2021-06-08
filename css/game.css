@@ -238,11 +238,14 @@ footer {
     .info-p {
         text-align: center;
     }
+    .info-p2 {
+        text-align: center;
+    }
     .btn1 {
-        margin-left: 170px;
+        margin-left: 230px;
     }
     .img-craft {
-        margin: 35px 0px 0px 76px;
+        margin: 35px 0px 0px 132px;
     }
     .foot-logo1 {
         display: none;
@@ -251,9 +254,6 @@ footer {
         display: none;
     }
     .stream {
-        display: none;
-    }
-    .contact2 {
         display: none;
     }
     .str {
